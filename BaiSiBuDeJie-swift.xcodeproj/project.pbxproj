@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B280C8471D3A22DC00B4724B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280C8461D3A22DC00B4724B /* AppDelegate.swift */; };
-		B280C8491D3A22DC00B4724B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280C8481D3A22DC00B4724B /* ViewController.swift */; };
-		B280C84C1D3A22DC00B4724B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B280C84A1D3A22DC00B4724B /* Main.storyboard */; };
+		B2396AF11D49901E0024D92C /* JFEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396AF01D49901E0024D92C /* JFEssenceViewController.swift */; };
+		B2396AF31D49903D0024D92C /* JFFriendTrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396AF21D49903D0024D92C /* JFFriendTrendsViewController.swift */; };
+		B2396AF51D49905E0024D92C /* JFNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396AF41D49905E0024D92C /* JFNewViewController.swift */; };
+		B2396AF71D4990790024D92C /* JFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396AF61D4990790024D92C /* JFProfileViewController.swift */; };
+		B2396AF91D4992BB0024D92C /* JFTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396AF81D4992BB0024D92C /* JFTabBar.swift */; };
 		B280C84E1D3A22DC00B4724B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B280C84D1D3A22DC00B4724B /* Assets.xcassets */; };
-		B280C8511D3A22DC00B4724B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B280C84F1D3A22DC00B4724B /* LaunchScreen.storyboard */; };
+		B280C8681D3A265D00B4724B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280C8601D3A265D00B4724B /* AppDelegate.swift */; };
+		B280C86A1D3A27BD00B4724B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280C8691D3A27BD00B4724B /* Config.swift */; };
+		B280C86C1D3A293000B4724B /* JFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280C86B1D3A293000B4724B /* JFTabBarController.swift */; };
+		B280C86E1D3A294400B4724B /* JFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B280C86D1D3A294400B4724B /* JFNavigationController.swift */; };
+		B2B118C51D4A230B008B0AE1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B118C41D4A230B008B0AE1 /* UIViewExtension.swift */; };
+		B2B118C71D4A25CB008B0AE1 /* UIBarButtionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B118C61D4A25CB008B0AE1 /* UIBarButtionItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2396AF01D49901E0024D92C /* JFEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFEssenceViewController.swift; sourceTree = "<group>"; };
+		B2396AF21D49903D0024D92C /* JFFriendTrendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFFriendTrendsViewController.swift; sourceTree = "<group>"; };
+		B2396AF41D49905E0024D92C /* JFNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFNewViewController.swift; sourceTree = "<group>"; };
+		B2396AF61D4990790024D92C /* JFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFProfileViewController.swift; sourceTree = "<group>"; };
+		B2396AF81D4992BB0024D92C /* JFTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTabBar.swift; sourceTree = "<group>"; };
 		B280C8431D3A22DC00B4724B /* BaiSiBuDeJie-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BaiSiBuDeJie-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B280C8461D3A22DC00B4724B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B280C8481D3A22DC00B4724B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B280C84B1D3A22DC00B4724B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B280C84D1D3A22DC00B4724B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B280C8501D3A22DC00B4724B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B280C8521D3A22DC00B4724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B280C8601D3A265D00B4724B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B280C8691D3A27BD00B4724B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B280C86B1D3A293000B4724B /* JFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTabBarController.swift; sourceTree = "<group>"; };
+		B280C86D1D3A294400B4724B /* JFNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFNavigationController.swift; sourceTree = "<group>"; };
+		B2B118C41D4A230B008B0AE1 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B2B118C61D4A25CB008B0AE1 /* UIBarButtionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtionItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2396AE01D498F7F0024D92C /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AE11D498F7F0024D92C /* Controllers */,
+				B2396AE21D498F7F0024D92C /* Models */,
+				B2396AE31D498F7F0024D92C /* Views */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		B2396AE11D498F7F0024D92C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AF01D49901E0024D92C /* JFEssenceViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B2396AE21D498F7F0024D92C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2396AE31D498F7F0024D92C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2396AE41D498F7F0024D92C /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AE51D498F7F0024D92C /* Controllers */,
+				B2396AE61D498F7F0024D92C /* Models */,
+				B2396AE71D498F7F0024D92C /* Views */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		B2396AE51D498F7F0024D92C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AF21D49903D0024D92C /* JFFriendTrendsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B2396AE61D498F7F0024D92C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2396AE71D498F7F0024D92C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2396AE81D498F7F0024D92C /* New */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AE91D498F7F0024D92C /* Controllers */,
+				B2396AEA1D498F7F0024D92C /* Models */,
+				B2396AEB1D498F7F0024D92C /* Views */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		B2396AE91D498F7F0024D92C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AF41D49905E0024D92C /* JFNewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B2396AEA1D498F7F0024D92C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2396AEB1D498F7F0024D92C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2396AEC1D498F7F0024D92C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AED1D498F7F0024D92C /* Controllers */,
+				B2396AEE1D498F7F0024D92C /* Models */,
+				B2396AEF1D498F7F0024D92C /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B2396AED1D498F7F0024D92C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AF61D4990790024D92C /* JFProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B2396AEE1D498F7F0024D92C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2396AEF1D498F7F0024D92C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B280C83A1D3A22DC00B4724B = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +196,93 @@
 		B280C8451D3A22DC00B4724B /* BaiSiBuDeJie-swift */ = {
 			isa = PBXGroup;
 			children = (
-				B280C8461D3A22DC00B4724B /* AppDelegate.swift */,
-				B280C8481D3A22DC00B4724B /* ViewController.swift */,
-				B280C84A1D3A22DC00B4724B /* Main.storyboard */,
 				B280C84D1D3A22DC00B4724B /* Assets.xcassets */,
-				B280C84F1D3A22DC00B4724B /* LaunchScreen.storyboard */,
 				B280C8521D3A22DC00B4724B /* Info.plist */,
+				B280C85E1D3A265D00B4724B /* Classes */,
 			);
 			path = "BaiSiBuDeJie-swift";
+			sourceTree = "<group>";
+		};
+		B280C85E1D3A265D00B4724B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B280C85F1D3A265D00B4724B /* Application */,
+				B280C8611D3A265D00B4724B /* Categories */,
+				B280C8671D3A265D00B4724B /* Utils */,
+				B280C8621D3A265D00B4724B /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B280C85F1D3A265D00B4724B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B280C8601D3A265D00B4724B /* AppDelegate.swift */,
+				B280C8691D3A27BD00B4724B /* Config.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B280C8611D3A265D00B4724B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B2B118C41D4A230B008B0AE1 /* UIViewExtension.swift */,
+				B2B118C61D4A25CB008B0AE1 /* UIBarButtionItem.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B280C8621D3A265D00B4724B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B280C8631D3A265D00B4724B /* Main */,
+				B2396AE01D498F7F0024D92C /* Essence */,
+				B2396AE41D498F7F0024D92C /* FriendTrends */,
+				B2396AE81D498F7F0024D92C /* New */,
+				B2396AEC1D498F7F0024D92C /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		B280C8631D3A265D00B4724B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B280C8641D3A265D00B4724B /* Controllers */,
+				B280C8651D3A265D00B4724B /* Models */,
+				B280C8661D3A265D00B4724B /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B280C8641D3A265D00B4724B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B280C86D1D3A294400B4724B /* JFNavigationController.swift */,
+				B280C86B1D3A293000B4724B /* JFTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B280C8651D3A265D00B4724B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B280C8661D3A265D00B4724B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2396AF81D4992BB0024D92C /* JFTabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B280C8671D3A265D00B4724B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +311,7 @@
 		B280C83B1D3A22DC00B4724B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JF;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = zhoujianfeng;
@@ -122,9 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B280C8511D3A22DC00B4724B /* LaunchScreen.storyboard in Resources */,
 				B280C84E1D3A22DC00B4724B /* Assets.xcassets in Resources */,
-				B280C84C1D3A22DC00B4724B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +355,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B280C8491D3A22DC00B4724B /* ViewController.swift in Sources */,
-				B280C8471D3A22DC00B4724B /* AppDelegate.swift in Sources */,
+				B2B118C51D4A230B008B0AE1 /* UIViewExtension.swift in Sources */,
+				B2396AF71D4990790024D92C /* JFProfileViewController.swift in Sources */,
+				B2396AF31D49903D0024D92C /* JFFriendTrendsViewController.swift in Sources */,
+				B280C8681D3A265D00B4724B /* AppDelegate.swift in Sources */,
+				B2396AF11D49901E0024D92C /* JFEssenceViewController.swift in Sources */,
+				B280C86A1D3A27BD00B4724B /* Config.swift in Sources */,
+				B280C86C1D3A293000B4724B /* JFTabBarController.swift in Sources */,
+				B280C86E1D3A294400B4724B /* JFNavigationController.swift in Sources */,
+				B2B118C71D4A25CB008B0AE1 /* UIBarButtionItem.swift in Sources */,
+				B2396AF91D4992BB0024D92C /* JFTabBar.swift in Sources */,
+				B2396AF51D49905E0024D92C /* JFNewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B280C84A1D3A22DC00B4724B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B280C84B1D3A22DC00B4724B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B280C84F1D3A22DC00B4724B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B280C8501D3A22DC00B4724B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B280C8531D3A22DC00B4724B /* Debug */ = {
@@ -251,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "BaiSiBuDeJie-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.6ag.BaiSiBuDeJie-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -262,10 +475,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "BaiSiBuDeJie-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.6ag.BaiSiBuDeJie-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -288,6 +504,7 @@
 				B280C8571D3A22DC00B4724B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
