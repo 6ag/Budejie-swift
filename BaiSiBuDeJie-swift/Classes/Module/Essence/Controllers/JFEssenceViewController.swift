@@ -30,13 +30,13 @@ class JFEssenceViewController: UIViewController {
      */
     private func prepareNavigationBar() {
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem.item("MainTagSubIcon", highlightedImage: "MainTagSubIconClick", target: self, action: #selector(didTappedLeftBarButton(_:)))
+        navigationItem.leftBarButtonItem = UIBarButtonItem.leftItem("MainTagSubIcon", highlightedImage: "MainTagSubIconClick", target: self, action: #selector(didTappedLeftBarButton(_:)))
         
         navigationItem.titleView = UIImageView(image: UIImage(named: "MainTitle"))
     }
     
     @objc private func didTappedLeftBarButton(barButtonItem: UIBarButtonItem) {
-        print("导航栏左边按钮")
+        navigationController?.pushViewController(UIViewController(), animated: true)
     }
     
 }

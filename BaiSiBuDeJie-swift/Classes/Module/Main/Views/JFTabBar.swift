@@ -18,7 +18,7 @@ class JFTabBar: UITabBar {
         super.init(frame: frame)
         
         backgroundImage = UIImage(named: "tabbar-light")
-        tintColor = UIColor(red:0.32, green:0.32, blue:0.32, alpha:1.00)
+        tintColor = ITEM_GRAY_COLOR
         
         // 中间加号按钮
         let addButton = UIButton(type: .Custom)
